@@ -1,0 +1,32 @@
+server:
+  port: 8112
+
+spring:
+  application:
+    name: goods-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  main:
+    allow-bean-definition-overriding: true
+
+
+dubbo:
+  scan:
+    base-packages: com.luo.nacosconsumer
+  protocol:
+    name: dubbo
+    port: -1
+  application:
+    name: goods-consumer
+  registry:
+    address: spring-cloud://localhost
+    port: 28889
+  cloud:
+    subscribed-services: goods-provider
+
+#    registries:
+#      address:
+
+
