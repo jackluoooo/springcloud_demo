@@ -10,7 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/consulconsumer/consulconsumer.iml" filepath="$PROJECT_DIR$/consulconsumer/consulconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nacos/nacos.iml" filepath="$PROJECT_DIR$/nacos/nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-discovery/nacos-discovery.iml" filepath="$PROJECT_DIR$/nacos-discovery/nacos-discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/nacosconsumer/nacosconsumer.iml" filepath="$PROJECT_DIR$/nacosconsumer/nacosconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/order/order.iml" filepath="$PROJECT_DIR$/order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/order/client/order-client.iml" filepath="$PROJECT_DIR$/order/client/order-client.iml" />

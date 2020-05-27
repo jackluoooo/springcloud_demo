@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/nacosconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-discovery/pom.xml" />
       </list>
     </option>
   </component>

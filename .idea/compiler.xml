@@ -2,26 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
-        <module name="client" />
+        <module name="order-common" />
+        <module name="consulconsumer" />
         <module name="order-client" />
         <module name="product-common" />
         <module name="product-client" />
-        <module name="nacosconsumer" />
         <module name="server" />
+        <module name="nacosconsumer" />
+        <module name="nacos-discovery" />
         <module name="order-server" />
-        <module name="consulconsumer" />
-        <module name="consul" />
         <module name="product-server" />
         <module name="eureka" />
         <module name="config" />
         <module name="api-gateway" />
-        <module name="nacos" />
-        <module name="order-common" />
+        <module name="client" />
+        <module name="consul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,7 +33,8 @@
       <module name="consulconsumer" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="jwt" target="1.8" />
-      <module name="nacos" target="1.8" />
+      <module name="nacos-config" target="1.8" />
+      <module name="nacos-discovery" target="1.8" />
       <module name="nacosconsumer" target="1.8" />
       <module name="order" target="1.8" />
       <module name="order-client" target="1.8" />
@@ -54,7 +56,8 @@
       <module name="consulconsumer" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="jwt" options="-parameters" />
-      <module name="nacos" options="-parameters" />
+      <module name="nacos-config" options="-parameters" />
+      <module name="nacos-discovery" options="-parameters" />
       <module name="nacosconsumer" options="-parameters" />
       <module name="order-client" options="-parameters" />
       <module name="order-common" options="-parameters" />
