@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+
+
 @SpringBootApplication
 @EnableDiscoveryClient
 public class NacosDiscoveryApplication {
@@ -16,10 +18,11 @@ public class NacosDiscoveryApplication {
         SpringApplication.run(NacosDiscoveryApplication.class, args);
     }
 
+
     @RestController
     class EchoController {
         @RequestMapping(value = "/echo/{string}", method = RequestMethod.GET)
-        public String echo(@PathVariable String string) {
+        public String echo(@PathVariable String string) throws Exception{
             return "Hello Nacos Discovery " + string;
         }
     }

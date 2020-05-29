@@ -7,9 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/user/pom.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/order/pom.xml" />
         <option value="$PROJECT_DIR$/product/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
@@ -19,7 +16,15 @@
         <option value="$PROJECT_DIR$/nacosconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/nacos-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/feignclient/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

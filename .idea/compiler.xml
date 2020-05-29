@@ -8,20 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
-        <module name="order-common" />
         <module name="consulconsumer" />
-        <module name="order-client" />
-        <module name="product-common" />
-        <module name="product-client" />
-        <module name="server" />
         <module name="nacosconsumer" />
         <module name="nacos-discovery" />
-        <module name="order-server" />
-        <module name="product-server" />
+        <module name="feignclient" />
         <module name="eureka" />
-        <module name="config" />
-        <module name="api-gateway" />
-        <module name="client" />
         <module name="consul" />
       </profile>
     </annotationProcessing>
@@ -32,6 +23,7 @@
       <module name="consul" target="1.8" />
       <module name="consulconsumer" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="feignclient" target="1.8" />
       <module name="jwt" target="1.8" />
       <module name="nacos-config" target="1.8" />
       <module name="nacos-discovery" target="1.8" />
@@ -55,6 +47,7 @@
       <module name="consul" options="-parameters" />
       <module name="consulconsumer" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="feignclient" options="-parameters" />
       <module name="jwt" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
       <module name="nacos-discovery" options="-parameters" />
